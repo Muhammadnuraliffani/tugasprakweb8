@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles5.css">
+</head>
+<body>
+    <header>Header</header>
+    <div id="main">
+      <aside>Aside</aside>
+      <article>
+        <h2>
+            ARTICLE
+        </h2>
+        <div id="foto">
+            <img src="img/gamr 3.jpg" alt="">
+            <img src="img/gambar 7.jpg" alt="">
+            <img src="img/gambar 8.jpg" alt="">
+        </div>
+      </article>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>
+
+
+
+
+
+body{
+    background-color: rgba(34, 9, 37, 0.904);
+    padding: 0%;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+header, footer{
+    background-color: rgb(122, 11, 122);
+    height: 10vh;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#main{
+    display: flex;
+}
+
+#main article{
+    background-color: rgb(185, 37, 231);
+    height: 60vh;
+    flex: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px  ;
+}
+#main aside{
+    flex: 1;
+    background-color:rgb(149, 9, 191);
+    height: 60vh;
+    flex: 0 0 20vw;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+h2{
+    text-align: center;
+    margin-top: 55px;
+    
+}
+#foto img{
+    
+    height: 40vh;
+    flex: 1;
+    margin: 10px;
+}
