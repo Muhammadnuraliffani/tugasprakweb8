@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <header>
+        Header
+        <nav>Nav</nav>
+    </header>
+    <div id="main">
+        <article>Article</article>
+        <aside>Aside</aside>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+body{
+    padding: 0%;
+    margin: 0;
+    text-align: center;
+}
+header, footer{
+    background-color: pink;
+    height: 20vh;
+}
+#main{
+    display: flex;
+}
+
+#main article{
+    background-color: plum;
+    height: 60vh;
+    flex: 0 0 59vw;
+}
+nav{
+    background-color: palevioletred;
+    float: left;
+    width: 20%;
+    height: 562px;
+}
+#main aside{
+    background-color: peachpuff;
+    height: 60vh;
+    flex: 0 0 21vw;
+}
